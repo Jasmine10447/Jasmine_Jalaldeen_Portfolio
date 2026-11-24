@@ -1,0 +1,6 @@
+{
+  "name": "Network Engineer Portfolio",
+  "description": "Enterprise-grade portfolio for a Network Engineer featuring interactive network topologies, packet flow simulations, subnet calculator, routing table explorer, and practical lab environments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
