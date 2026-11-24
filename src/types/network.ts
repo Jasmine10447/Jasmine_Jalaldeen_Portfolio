@@ -108,5 +108,6 @@ export interface TimelineEntry {
   type: 'Education' | 'Experience' | 'Certification';
   description: string;
   bullets: string[];
+  skills?: string[];
 }
 
