@@ -1,7 +1,6 @@
 ﻿import React, { useState, useEffect } from 'react';
 import { portfolioConfig } from '../data/portfolioData';
 import { 
-  Network, 
   Menu, 
   X, 
   FileText, 
@@ -20,7 +19,7 @@ export const Navbar: React.FC = () => {
     { label: 'Skills', href: '#skills' },
     { label: 'Projects', href: '#projects' },
     { label: 'Achievements', href: '#achievements' },
-    { label: 'Certifications', href: '#certifications' },
+    { label: 'Credentials', href: '#certifications' },
     { label: 'Contact', href: '#contact' },
   ];
 
@@ -62,9 +61,11 @@ export const Navbar: React.FC = () => {
           href="#hero" 
           className="flex items-center gap-2.5 text-slate-100 hover:text-cyan-400 transition-colors whitespace-nowrap shrink-0 group"
         >
-          <div className="w-8 h-8 rounded-lg bg-cyan-950/60 border border-cyan-500/30 flex items-center justify-center text-cyan-400 group-hover:border-cyan-400/60 transition-colors">
-            <Network className="w-4 h-4" />
-          </div>
+          <img
+            src="/images/logo.png"
+            alt="Jasmine logo"
+            className="w-10 h-10 rounded-lg object-contain"
+          />
           <span className="font-bold tracking-tight text-xl sm:text-3xl">
             Jasmine
           </span>
@@ -156,6 +157,11 @@ export const Navbar: React.FC = () => {
     </header>
   );
 };
+
+
+
+
+
 
 
 

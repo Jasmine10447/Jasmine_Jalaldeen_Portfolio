@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { portfolioConfig } from '../data/portfolioData';
 import { Network, ArrowUp, Github, Linkedin, Mail, FileText } from 'lucide-react';
 
@@ -27,14 +27,13 @@ export const Footer: React.FC = () => {
 
           {/* Quick Links */}
           <div className="flex flex-wrap items-center gap-6 text-xs font-mono">
-            <a href="#about" className="hover:text-cyan-400 transition-colors">About</a>
+                        <a href="#about" className="hover:text-cyan-400 transition-colors">About</a>
+            <a href="#experience" className="hover:text-cyan-400 transition-colors">Education</a>
             <a href="#skills" className="hover:text-cyan-400 transition-colors">Skills</a>
             <a href="#projects" className="hover:text-cyan-400 transition-colors">Projects</a>
-            <a href="#certifications" className="hover:text-cyan-400 transition-colors">Certifications</a>
-            <a href="#experience" className="hover:text-cyan-400 transition-colors">Experience</a>
-            <a href="#resume" className="hover:text-cyan-400 transition-colors">Resume</a>
-            <a href="#contact" className="hover:text-cyan-400 transition-colors">Contact</a>
-</div>
+            <a href="#achievements" className="hover:text-cyan-400 transition-colors">Achievements</a>
+            <a href="#certifications" className="hover:text-cyan-400 transition-colors">Credentials</a>
+            <a href="#contact" className="hover:text-cyan-400 transition-colors">Contact</a></div>
 
           {/* Social and Top */}
           <div className="flex items-center gap-3">
@@ -76,11 +75,11 @@ export const Footer: React.FC = () => {
         {/* Copyright notice & Vercel deployment badge */}
         <div className="pt-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4 text-xs font-mono text-slate-400">
           <div>
-            © 2026 {portfolioConfig.personalInfo.name}. All rights reserved.
+            Â© 2026 {portfolioConfig.personalInfo.name}. All rights reserved.
           </div>
           <div className="flex items-center gap-2 text-slate-400">
             <span>Enterprise NOC Visual Architecture</span>
-            <span>·</span>
+            <span>Â·</span>
             <span>Deployable on Vercel</span>
           </div>
         </div>
@@ -89,5 +88,6 @@ export const Footer: React.FC = () => {
     </footer>
   );
 };
+
 
 

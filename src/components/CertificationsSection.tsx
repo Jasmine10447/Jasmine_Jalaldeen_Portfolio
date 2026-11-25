@@ -92,7 +92,7 @@ export const CertificationsSection: React.FC = () => {
             <span className="uppercase tracking-wider">Industry Credentials</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-white">
-            Certifications
+            Credentials
           </h2>
           <p className="mt-2 text-base text-slate-300 leading-relaxed">
             Professional development and verified learning achievements in networking,
@@ -248,6 +248,8 @@ export const CertificationsSection: React.FC = () => {
     </section>
   );
 };
+
+
 
 
 
