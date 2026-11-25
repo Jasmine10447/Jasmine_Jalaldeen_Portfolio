@@ -1,0 +1,6 @@
+# Robots.txt for Yesmin Jalaldeen (Jasmine Jalaldeen) — Network Engineer Portfolio
+User-agent: *
+Allow: /
+
+# Once your final domain is confirmed, add your sitemap URL below:
+# Sitemap: https://your-domain.com/sitemap.xml

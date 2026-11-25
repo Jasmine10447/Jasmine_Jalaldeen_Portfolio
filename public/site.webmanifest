@@ -1,0 +1,24 @@
+{
+  "name": "Yesmin Jalaldeen (Jasmine) | Network Engineer Portfolio",
+  "short_name": "Yesmin Jalaldeen",
+  "description": "Portfolio of Yesmin Jalaldeen (Jasmine Jalaldeen), B.IT (Hons) Computer Networks graduate and Network Engineer in Sri Lanka specializing in Cisco IOS, GNS3, OSPF, pfSense, VLANs, and IPsec VPNs.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#070b12",
+  "theme_color": "#070b12",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/yesmin-profile.png",
+      "sizes": "1024x1535",
+      "type": "image/png"
+    }
+  ]
+}
