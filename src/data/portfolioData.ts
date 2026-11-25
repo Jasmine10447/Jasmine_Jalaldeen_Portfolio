@@ -1,4 +1,4 @@
-import {
+﻿import {
   NetworkLab,
   NetworkProject,
   SkillCategory,
@@ -16,7 +16,8 @@ export const portfolioConfig = {
     email: "jasminejalaldeen10447@gmail.com",
     github: "https://github.com/Jasmine10447",
     linkedin: "https://www.linkedin.com/in/yesmin-jalaldeen-6634ba198/",
-    location: "",
+    phone: "+94 78 486 8857",
+    location: "Polgasowita, Piliyandala 10320",
     availability: "",
     cvPath: "/resume/Yesmin%20Jalaldeen_CV.pdf",
   },
@@ -28,11 +29,11 @@ export const portfolioConfig = {
   ],
   telemetryDemo: {
     status: "Portfolio Preview",
-    latency: "—",
-    jitter: "—",
-    packetLoss: "—",
-    uptime: "—",
-    activeInterfaces: "—",
+    latency: "â€”",
+    jitter: "â€”",
+    packetLoss: "â€”",
+    uptime: "â€”",
+    activeInterfaces: "â€”",
   }
 };
 export const skillCategories: SkillCategory[] = [
@@ -758,7 +759,7 @@ export const networkLabs: NetworkLab[] = [
       },
       {
         command: "wireshark display filter: tcp.analysis.retransmission",
-        outputSnippet: "Packet #42: [TCP Retransmission] 443 → 51234 [ACK] Seq=1461 Ack=1",
+        outputSnippet: "Packet #42: [TCP Retransmission] 443 â†’ 51234 [ACK] Seq=1461 Ack=1",
         description: "Identifies packet loss or delayed acknowledgments causing transport retransmissions.",
       },
     ],
@@ -777,7 +778,7 @@ export const networkProjects: NetworkProject[] = [
     category: "Enterprise Campus",
     difficulty: "Advanced",
     featuredLabel: "University Main Project",
-    period: "Aug 2024 – Aug 2025",
+    period: "Aug 2024 â€“ Aug 2025",
     objective: "Design and simulate an enterprise-grade network infrastructure using GNS3, focusing on security, high availability, scalability and optimized network performance.",
     architectureSummary: "A secure and resilient enterprise network architecture integrating VLAN and DMZ segmentation, dynamic routing, gateway redundancy, intrusion detection and centralized monitoring.",
     keyImplementations: [
@@ -892,7 +893,7 @@ export const experienceTimeline: TimelineEntry[] = [
     id: "edu-01",
     role: "Bachelor of Information Technology (Honours) in Computer Networks",
     organization: "ESU ESOFT University",
-    period: "October 2022 – September 2026",
+    period: "October 2022 â€“ September 2026",
     location: "Sri Lanka",
     type: "Education",
     description: "Specialized in Computer Networks, with an academic focus on networking technologies, network planning and enterprise infrastructure.",
@@ -907,7 +908,7 @@ export const experienceTimeline: TimelineEntry[] = [
     id: "edu-02",
     role: "Certificate and Diploma Level in Computer Networking",
     organization: "BCS, The Chartered Institute for IT",
-    period: "September 2018 – March 2021",
+    period: "September 2018 â€“ March 2021",
     location: "Sri Lanka",
     type: "Education",
     description: "Pursued BCS professional qualifications with a focus on Computer Networking.",
@@ -921,21 +922,21 @@ export const experienceTimeline: TimelineEntry[] = [
     id: "edu-03",
     role: "Advanced Level and Ordinary Level",
     organization: "Dharmapala Maha Vidyalaya, Kottawa",
-    period: "January 2005 – August 2018",
+    period: "January 2005 â€“ August 2018",
     location: "Sri Lanka",
     type: "Education",
     description: "Completed school education at Dharmapala Maha Vidyalaya, Kottawa.",
     bullets: [
-      "G.C.E. Ordinary Level Examination – 2015.",
-      "G.C.E. Advanced Level Examination – 2018.",
+      "G.C.E. Ordinary Level Examination â€“ 2015.",
+      "G.C.E. Advanced Level Examination â€“ 2018.",
       "Extracurricular activities: Badminton and School English Choir.",
     ],
   },
   {
     id: "exp-01",
-    role: "Trainee Insurance Assistant – Motor UW",
+    role: "Trainee Insurance Assistant â€“ Motor UW",
     organization: "Continental Insurance Lanka Limited",
-    period: "October 2021 – September 2022",
+    period: "October 2021 â€“ September 2022",
     location: "Colombo South, Sri Lanka",
     type: "Experience",
     description: "Assisted underwriters with motor insurance application reviews and risk-assessment activities. Processed policy documentation and supported customer communications while maintaining accuracy. Conducted market research and contributed to team discussions on workflow and operational performance. Developed professional skills in documentation, teamwork, communication and following established procedures.",
@@ -958,6 +959,7 @@ export const experienceTimeline: TimelineEntry[] = [
     ],
   },
 ];
+
 
 
 
